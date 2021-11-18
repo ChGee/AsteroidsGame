@@ -19,7 +19,6 @@ public void draw()
 }
 
 public void keyPressed(){
- if(keyPressed){
     if (key =='a')
       yWing.turn(5);
     if(key == 'd')
@@ -33,5 +32,4 @@ public void keyPressed(){
       yWing.setSpeed(0);
       yWing.setDirection(Math.random()*360);
     }
-  } 
 }
