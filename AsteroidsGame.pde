@@ -27,8 +27,8 @@ public void keyPressed(){
       yWing.move();
       yWing.accelerate(0.1);
     if(key == 'h'){
-      yWing.setX(Math.random()*400);
-      yWing.setY(Math.random()*400);
+      yWing.setX(Math.random()*500);
+      yWing.setY(Math.random()*500);
       yWing.setSpeed(0);
       yWing.setDirection(Math.random()*360);
     }
