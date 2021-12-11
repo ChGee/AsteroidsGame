@@ -26,10 +26,10 @@ class Asteroid extends Floater{
        turn(rotSpeed);
        super.move();
    }
-    double getRockX(){
+   public double getRockX(){
       return myCenterX;
     }
-    double getRockY(){
+    public double getRockY(){
       return myCenterY;
     }
     
